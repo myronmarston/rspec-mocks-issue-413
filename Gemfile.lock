@@ -50,7 +50,10 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    metaclass (0.0.1)
     mime-types (1.24)
+    mocha (0.12.1)
+      metaclass (~> 0.0.1)
     multi_json (1.7.9)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -116,6 +119,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  mocha
   rails (= 3.2.13)
   rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
